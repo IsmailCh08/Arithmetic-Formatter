@@ -1,7 +1,7 @@
 def arithmetic_arranger(problems, show_answers=False):
     if len(problems) > 5:
         return ('Error: Too many problems.')
-    parts = [problem.split() for problem in problems] 
+    parts = [problem.split() for problem in problems]
     
 
     first_line = []
